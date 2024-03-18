@@ -1,0 +1,78 @@
+
+
+
+.contenedorpadresupremo{
+width: 90%;
+min-height: 400px; /*EL MINIMO ES DE 400 PX PERO SI SE NESECITA MÁS , SE AGREGA SOLO*/
+background-color: blueviolet;
+margin: auto;
+padding: 20px;
+/*overflow-y: scroll; PERMITE QUE AQUELLOS ELEMENTOS
+QUE DESBORDEN DEL CONTENEDOR PUEDAN SER VISUALIZADOS CON 
+LA BARRA DE DESPLAZAMIENTO */
+
+}
+header{
+    display: flex;
+    justify-content: space-between; /* con el evenly los separa en partes iguales y arround espacios iguales y between deja el espacio completo entre los elementos y lo deja al final , */
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    
+    /* & .logo{
+        color: black;
+        font-size: 40pt;
+
+    } */
+
+    & .botonera{
+        display: flex;
+        font-size: 30pt;
+
+    }
+
+    
+
+}
+.f50{
+    font-size: 30pt!important;
+}
+
+
+.footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+}
+
+.descripcion{
+    width: 100%;
+    height: 200px;
+    background-color: beige;
+}
+.productos{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+.nosotros{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(223, 69, 22);
+
+}
+
+
+
+
+
+
+
