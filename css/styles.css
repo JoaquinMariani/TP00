@@ -51,6 +51,7 @@ header{
     width: 100%;
     height: 250px;
     background-color: aqua;
+    background-image: url(img/principal.jpg);
 }
 
 .descripcion{
@@ -68,11 +69,6 @@ header{
     height: 150px;
     background-color: rgb(223, 69, 22);
 
-}
-.foto_banner{
-    width: 100%;
-    height: 250px;
-    background-color: black;
 }
 
 
